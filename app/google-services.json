@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "220399382501",
+    "project_id": "learn-gurbani-5f1c3",
+    "storage_bucket": "learn-gurbani-5f1c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220399382501:android:269f3cd1104118be81490c",
+        "android_client_info": {
+          "package_name": "com.example.learngurbani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220399382501-aec5s365m8gt4aguu0okikkt0j11ffcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW-q3xYClh92WcelALe14RbubSuxqSL7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220399382501-aec5s365m8gt4aguu0okikkt0j11ffcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

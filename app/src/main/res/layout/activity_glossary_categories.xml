@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GlossaryCategories"
+    android:background="@color/backgroundColour"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/allGlossary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:onClick="goAllGlossary"
+            android:background="@drawable/main_menu_buttons"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:text="Glossary of all terms" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/personalGlossary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_menu_buttons"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:onClick="goPersonalGlossary"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:text="Personal glossary" />
+    </LinearLayout>
+
+</ScrollView>

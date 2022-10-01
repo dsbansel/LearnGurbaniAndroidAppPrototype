@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizCategories"
+    android:background="@color/backgroundColour"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:padding="13dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Please select a quiz category:"
+        android:textColor="@color/black"
+        android:background="@drawable/question_container_background"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/misc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_noun_question_4184329"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:onClick="miscQuiz"
+            android:background="@drawable/main_menu_buttons"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:text="Random" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/jsWords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_menu_buttons"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_noun_book_4192391"
+            android:padding="20dp"
+            android:onClick="jsQuiz"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Japji Sahib" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/csWords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_menu_buttons"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            android:onClick="csQuiz"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_noun_book_4192391"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textAllCaps="false"
+            android:text="Chaupai Sahib" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/animals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_menu_buttons"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            android:onClick="animalsQuiz"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_noun_animal_4197686"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAllCaps="false"
+            android:text="Animals" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_menu_buttons"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            android:onClick="natureQuiz"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_noun_nature_1550433"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="false"
+            android:text="Nature" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+  </ScrollView>

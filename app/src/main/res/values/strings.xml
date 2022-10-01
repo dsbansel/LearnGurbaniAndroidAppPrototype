@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Learn Gurbani</string>
+    <string name="welcomeSignUp">ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ!\nWelcome to the @learn.gurbani app!\n\n<b>Please sign up with a username, email and password</b></string>
+    <string name="welcomeLogin">ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ!\nWelcome to the @learn.gurbani app!\n\n<b>Please log in with your email and password</b></string>
+    <string name="welcomeHome">ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ!\nWelcome to the @learn.gurbani app!\n\n<b>Please select an option:</b></string>
+    <string name="welcomeSplash">ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ!\nWelcome to the @learn.gurbani app!</string>
+    <string name="quizButton">Quiz Mode</string>
+    <string name="flashcardButton">Flashcards</string>
+    <string name="twoPlayerButton">2-player Mode</string>
+    <string name="achievementsButton">Achievements</string>
+    <string name="leaderboardsButton">Leaderboards</string>
+    <string name="stats">Statistics</string>
+    <string name="already_have_an_account_click_here_to_log_in"><u>Already have an account? Click here to log in</u></string>
+    <string name="don_t_have_an_account_click_here_to_sign_up"><u>Don\'t have an account? Click here to sign up</u></string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="glossary">Glossary</string>
+
+
+</resources>
